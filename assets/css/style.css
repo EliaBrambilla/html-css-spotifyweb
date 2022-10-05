@@ -189,7 +189,7 @@ a{
   .main-contenuti{
     margin-top: 80px;
     width: 100%;
-    background-color: var(--redfluo);
+    background-color: var(--black);
   }
   .main-contenuti h2{
     color:var(--white);
@@ -210,6 +210,7 @@ a{
   .flex{
     display: flex;
   }
+  
   .container-contenuti div{
     color: var(--white);
     margin:auto;
@@ -221,6 +222,46 @@ a{
   .container-contenuti img{
     width: 100%;
   }
+  .main-contenuti-2 h4{
+    color:var(--greydark);
+    font-size: 0.7rem;
+  }
+  .main-contenuti-2{
+    margin-top:20px;
+  }
+
+  .flex-b-50{
+    flex-basis: 50%;
+  }
+  .flex-b-50 img{
+    width:100%;
+    padding:5px;
+  }
+  .width-35{
+    width: 35%;
+  }
   
+
+  .main-contenuti-3{
+    margin-top:30px;
+  }
+  .main-contenuti-3 h4{
+    color:var(--greydark);
+    font-size: 0.7rem;
+  }
+.fleb-b-50 img{
+    border-radius: 50%;
+}
+.image{
+    background-size: cover;
+    height: 100%;
+}
+.image img{
+    border-radius: 50%;
+}
+
+.flex-b-30{
+    flex-basis:30%;
+}
 
 
