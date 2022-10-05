@@ -30,6 +30,9 @@ ul,
 ol {
   list-style: none;
 }
+a{
+    color: var(--white);
+}
 
 /* colori */
 :root{
@@ -53,3 +56,141 @@ ol {
 
 
 /* by Brambilla Elia */
+
+/*contenitore*/
+
+.contenitore{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--black);
+    overflow: hidden;
+  }
+  
+  /*main*/
+  
+  .main{
+    height: calc(100% - 90px);
+  }
+  
+  .main:after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  /*box*/
+  
+  .box{
+    width: 200px;
+  }
+  
+  .box:last-child{
+    width: calc(100% - 200px);
+  }
+  
+  .sx,
+  .dx{
+    float: left;
+  }
+  
+  /* box sx*/
+  
+  aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #000000;
+    color: #707070
+  }
+  
+  .header-box-sx .logo-nav:first-child img{
+    padding: 10px 0;
+    height: 70px;
+  }
+  
+  .sx ul li{
+    padding: 5px 0;
+    list-style: none;
+  }
+  
+  .main-box-sx{
+    min-height: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .main-box-sx ul{
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .main-box-sx ul li:first-child #big{
+    font-size: 40px;
+    padding-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .logo-nav:nth-child(3){
+    border-left: 2px solid var(--greenfluo);
+  }
+  
+  .logo-nav:not(:first-child)>img{
+    width: 30px;
+    vertical-align: middle;
+    margin: 5px;
+  }
+  
+  .logo-nav:nth-child(2){
+    display: none;
+  }
+  
+  .footer-box-sx{
+    padding: 10px 5px 10px 0;
+  }
+  
+  .footer-box-sx hr{
+    margin: 10px 0;
+  }
+  
+   .footer-box-sx img{
+    height: 30px;
+    background-color: var(--blacksoft);
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  
+  /* box upgrade */
+  
+  .dx{
+    height: 100%;
+    overflow-y: scroll;
+  }
+  
+  .header-upgrade{
+    height: 80px;
+    width: calc(100% - 200px);
+    background-color: var(--black);
+    text-align: right;
+    line-height: 80px;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .btn-big{
+    border-radius: 30px;
+    border: 1px solid var(--white);
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .main-contenuti{
+    margin-top: 80px;
+    width: 100%;
+    background-color: var(--black);
+  }
+  
+
+
