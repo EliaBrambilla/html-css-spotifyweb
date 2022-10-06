@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color:white;
 }
 /* reset html */
 html {
@@ -92,6 +93,53 @@ a{
   .dx{
     float: left;
   }
+
+  /* prova*/
+/* layout */
+.container h2 {
+  text-align: left;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 1.5rem;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* testo */
+.text-center {
+  text-align: center;
+}
+
+/* col */
+.col {
+  width: calc(100% / 6 - 20px);
+  margin:10px;
+}
+.col img {
+  height: 250px;
+  margin-bottom: 0.8rem;
+}
+
+.row-left {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+/* sezione 2 */
+#text-left {
+  text-align: left;
+  padding-bottom: 10px;
+}
+/* sezione 3 */
+.card-oval img {
+  border-radius: 50%;
+}
+  /* fine prova */
   
   /* box sx*/
   
@@ -187,14 +235,7 @@ a{
     font-size: 0.8rem;
   }
   
-  .main-contenuti{
-    margin-top: 80px;
-    width: 100%;
-    background-color: #2e2e2e;
-  }
-  .main-contenuti h2{
-    color:var(--white);
-  }
+  
 .nav-bar-middle{
     display: flex;
     justify-content: center;
@@ -205,8 +246,9 @@ a{
     margin:0.6rem;
     cursor: pointer;
     font-size: 0.7rem;
-    margin-bottom:20px;
+    margin-top:5%;
   }
+
  
   .nav-bar-middle li:hover{
     color:white;
@@ -216,79 +258,8 @@ a{
     border-bottom: 3px solid var(--greenfluo);
     border-width: 2px;
   }
-  .tac2{
-    text-align: center;
-    font-size: 0.9rem;
-  }
-  .tac{
-    text-align: center;
-    color:var(--greydark);
-    font-size: 0.6rem;
-  }
-  
-  /*.margin{
-    padding-top:10px;
-  }
-  */
 
-  .flex{
-    display: flex;
-  }
 
   
-  .container-contenuti div{
-    color: var(--white);
-    margin:auto;
-    flex-wrap: wrap;
-  }
-
-  .flex-b{
-    flex-basis: 15%;
-  }
-  .container-contenuti img{
-    width: 100%;
-  }
-
-  .main-contenuti-2 h4{
-    color:var(--greydark);
-    font-size: 0.7rem;
-  }
-  .main-contenuti-2{
-    margin-top:20px;
-  }
-
-  .flex-b-50{
-    flex-basis: 50%;
-  }
-  .flex-b-50 img{
-    width:100%;
-    padding:5px;
-  }
-  .width-35{
-    width: 35%;
-  }
-  
-
-  .main-contenuti-3{
-    margin-top:30px;
-  }
-  .main-contenuti-3 h4{
-    color:var(--greydark);
-    font-size: 0.7rem;
-  }
-.fleb-b-50 img{
-    border-radius: 50%;
-}
-.image{
-    background-size: cover;
-    height: 100%;
-}
-.image img{
-    border-radius: 50%;
-}
-
-.flex-b-30{
-    flex-basis:30%;
-}
 
 
