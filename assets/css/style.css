@@ -234,9 +234,11 @@ a{
     color: white;
     font-size: 0.8rem;
   }
-  
-  
-.nav-bar-middle{
+  .btn-big:hover{
+    background-color: var(--greydark);
+  }
+   
+  .nav-bar-middle{
     display: flex;
     justify-content: center;
 }
@@ -249,16 +251,12 @@ a{
     margin-top:5%;
   }
 
- 
   .nav-bar-middle li:hover{
     color:white;
     text-align: center;
-    margin:0.6rem;
     cursor: pointer;
     border-bottom: 3px solid var(--greenfluo);
-    border-width: 2px;
   }
-
 
   
 
