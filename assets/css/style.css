@@ -165,6 +165,7 @@ a{
     min-height: 150px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-left:5px;
   }
   
   .main-box-sx ul{
@@ -259,7 +260,6 @@ a{
   }
 
   /* footer */
-
 /*player bottom*/
 *{
   color:white;
