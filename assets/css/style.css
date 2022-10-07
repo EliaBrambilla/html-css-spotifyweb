@@ -94,7 +94,7 @@ a{
     float: left;
   }
 
-  /* prova*/
+  /* main principale*/
 /* layout */
 .container h2 {
   text-align: left;
@@ -139,10 +139,9 @@ a{
 .card-oval img {
   border-radius: 50%;
 }
-  /* fine prova */
+  /* fine main principale */
   
   /* box sx*/
-  
   aside{
     display: flex;
     flex-direction: column;
@@ -235,13 +234,14 @@ a{
     font-size: 0.8rem;
   }
   .btn-big:hover{
-    background-color: var(--greydark);
+    background-color:var(--greydark);
   }
    
   .nav-bar-middle{
     display: flex;
     justify-content: center;
 }
+  
   .nav-bar-middle li{
     color:white;
     text-align: center;
@@ -255,9 +255,189 @@ a{
     color:white;
     text-align: center;
     cursor: pointer;
-    border-bottom: 3px solid var(--greenfluo);
+    border-bottom: 1px solid var(--greenfluo);
   }
 
-  
+  /* footer */
 
+/*player bottom*/
+*{
+  color:white;
+  text-decoration:none;
+  font-size:0.9rem;
+}
+#player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0;
+  background-color: #171717;
+  }
 
+/*album in corso*/
+.album-playing-container {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.album-playing-container img {
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+.album-playing-container i {
+  font-size: 16px;
+}
+
+.album-name {
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.album-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-heart {
+  padding-right: 15px;
+}
+/*album in corso fine*/
+
+/*player controller*/
+.player-controller-container {
+  flex-basis: 40%;
+  margin-bottom: 12px;
+}
+
+.player-controller {
+  padding: 15px 0 15px;
+}
+
+.player-controller ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressbar-and-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  height: 4px;
+  flex-grow: 1;
+  background-color: #535353;
+  border-radius: 5px;
+  position: relative;
+}
+
+.partial-bar {
+  height: 4px;
+  width: 25%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.partial-bar:hover::before {
+  content: '';
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 23%;
+  cursor: pointer;
+}
+
+.song-progress {
+  padding-right: 30px;
+}
+
+.song-duration {
+  padding-left: 30px;
+}
+
+.player-controller ul li {
+  display: inline;
+}
+
+#player i:hover {
+  color: #1dd05d;
+}
+
+.fa-random,
+.fa-step-backward,
+.fa-play-circle,
+.fa-step-forward {
+  padding-right: 20px;
+}
+
+.fa-random,
+.fa-step-backward,
+.fa-step-forward,
+.fa-redo-alt {
+  font-size: 12px;
+}
+
+.fa-play-circle {
+  font-size: 24px;
+}
+/*Player Controller End*/
+
+/*Right Controller*/
+.right-controller-container {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.right-controller {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-controller i {
+  font-size: 12px;
+}
+
+.right-controller a {
+  padding-right: 15px;
+}
+
+.right-controller-bar {
+  flex-basis: 20%;
+  height: 4px;
+  background: #535353;
+  border-radius: 2px;
+  align-self: center;
+  position: relative;
+}
+
+.right-controller-partial-bar {
+  height: 4px;
+  width: 25%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.right-controller-partial-bar:hover::before {
+  content: '';
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -3px;
+  left: 22%;
+  cursor: pointer;
+}
+/*controller destro fine*/
+/*player bottom fine*/
