@@ -441,3 +441,84 @@ a{
 }
 /*controller destro fine*/
 /*player bottom fine*/
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  .col {
+    width: calc(100% / 6);
+  }
+  .col img {
+    height: 200px;
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  .col {
+    width: calc(100% / 3);
+  }
+}
+
+@media only screen and (max-width: 824px) {
+  .container {
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  .col {
+    width: calc(100% / 3);
+  }
+  .col img {
+  height: 250px;
+  margin-bottom: 0.8rem;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .col {
+    width: calc(100% / 3);
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  .col img {
+    height: 200px;
+    margin-bottom: 0.8rem;
+    padding:10px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  .col {
+    width: calc(100% / 1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FINE MEDIA QUERIES */
