@@ -107,7 +107,7 @@ a{
 .row {
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 /* testo */
@@ -485,8 +485,14 @@ a{
 }
 
 @media only screen and (max-width: 768px) {
+  .box{
+    width: 50px;
+  }
   .col {
-    width: calc(100% / 3);
+    width: calc(100% / 4 - 50px);
+  }
+  .box:last-child {
+    width: calc(100% - 20s0px);
   }
   .container {
     width: 100%;
